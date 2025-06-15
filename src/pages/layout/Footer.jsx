@@ -42,9 +42,18 @@ const Footer = () => {
       </div>
 
       {/* Logo */}
-      <div>
-        <img src="/assets/layout/logo.svg" alt="logo" className="w-[60px] h-auto" />
-      </div>
+      <div className="flex items-center">
+          <img
+            src="/assets/layout/logo.svg"
+            alt="logo"
+            className="block dark:hidden w-24"
+          />
+          <img
+            src="/assets/layout/logo_white.svg"
+            alt="logo"
+            className="hidden dark:block w-24"
+          />
+        </div>
 
       {/* Info */}
       <div className="text-[9px] text-right">

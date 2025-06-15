@@ -6,8 +6,8 @@ function Layout() {
   return (
     <>
       <Header />
-      <main className="min-h-screen px-4 py-8">
-        <Outlet /> 
+      <main className="min-h-screen bg-white dark:bg-zinc-900 text-black dark:text-white">
+        <Outlet />
       </main>
       <Footer />
     </>
