@@ -1,3 +1,13 @@
+
+#Description
+it is the first project made with vite not a crp (create react app) and what else new?
+
+tailwind css framework that may shorten styling time easy to edit, no crash in between class name, easy to make big 3's into component
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
